@@ -121,6 +121,7 @@ Você vai precisar de uma conta no Telegram, uma conta no Supabase, uma conta na
 
 1. Entre em supabase.com e crie um **novo projeto**. Anote a senha do banco.
 2. Abra o **SQL Editor** do projeto, cole o conteúdo do arquivo `supabase/migrations/0001_estoque.sql` (ele está neste repositório) e clique em **Run**. Isso cria as tabelas e as funções de estoque.
+   - Opcional: rode também `supabase/seed.sql` para ter dados de demonstração (8 itens, 3 clientes e 2 vendas). Ele só roda uma vez; se já houver itens, não faz nada.
 3. Vá em **Project Settings > API** e copie:
    - **Project URL**, que será o `SUPABASE_URL`;
    - **service_role key**, que será o `SUPABASE_SERVICE_ROLE_KEY`.
