@@ -1,0 +1,23 @@
+{
+  "name": "bot-estoque-telegram",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.119.2",
+    "grammy": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.10",
+    "@vercel/node": "^32.0.0",
+    "typescript": "^7.0.2",
+    "vitest": "^5.1.2"
+  }
+}
