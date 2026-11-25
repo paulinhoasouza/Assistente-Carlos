@@ -8,7 +8,8 @@
   },
   "scripts": {
     "typecheck": "tsc --noEmit",
-    "test": "vitest run"
+    "test": "vitest run",
+    "webhook": "tsx scripts/configurar-webhook.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.119.2",
@@ -17,6 +18,7 @@
   "devDependencies": {
     "@types/node": "^26.6.10",
     "@vercel/node": "^32.0.0",
+    "tsx": "^4.23.15",
     "typescript": "^7.0.2",
     "vitest": "^5.1.2"
   }
